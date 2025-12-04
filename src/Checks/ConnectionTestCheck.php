@@ -142,6 +142,7 @@ class ConnectionTestCheck extends BaseCheck
 
         return [
             'success' => true,
+            'error' => null,
             'http_code' => $httpCode,
             'response_length' => strlen($response ?: ''),
         ];
