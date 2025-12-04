@@ -1,8 +1,8 @@
 <?php
 
-namespace HmzaUsman\LaravelReverbDoctor\Tests;
+namespace Bitsoftsolutions\LaravelReverbDoctor\Tests;
 
-use HmzaUsman\LaravelReverbDoctor\ReverbDoctorServiceProvider;
+use Bitsoftsolutions\LaravelReverbDoctor\ReverbDoctorServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra

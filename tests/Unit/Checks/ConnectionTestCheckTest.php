@@ -1,7 +1,7 @@
 <?php
 
-use HmzaUsman\LaravelReverbDoctor\Checks\ConnectionTestCheck;
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticStatus;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\ConnectionTestCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticStatus;
 
 beforeEach(function () {
     $this->check = new ConnectionTestCheck();

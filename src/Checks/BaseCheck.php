@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HmzaUsman\LaravelReverbDoctor\Checks;
+namespace Bitsoftsolutions\LaravelReverbDoctor\Checks;
 
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticResult;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticResult;
 
 abstract class BaseCheck implements CheckInterface
 {

@@ -1,7 +1,7 @@
 <?php
 
-use HmzaUsman\LaravelReverbDoctor\Checks\PortAvailabilityCheck;
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticStatus;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\PortAvailabilityCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticStatus;
 
 beforeEach(function () {
     $this->check = new PortAvailabilityCheck();

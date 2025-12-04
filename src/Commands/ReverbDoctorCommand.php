@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace HmzaUsman\LaravelReverbDoctor\Commands;
+namespace Bitsoftsolutions\LaravelReverbDoctor\Commands;
 
-use HmzaUsman\LaravelReverbDoctor\Checks\BaseCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\BroadcastConnectionCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\ConfigConsistencyCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\ConnectionTestCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\DockerDetectionCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\EnvironmentVariablesCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\FrontendSyncCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\PortAvailabilityCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\QueueWorkerCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\ReverbProcessCheck;
-use HmzaUsman\LaravelReverbDoctor\Checks\SslCertificateCheck;
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticResult;
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticStatus;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\BaseCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\BroadcastConnectionCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\ConfigConsistencyCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\ConnectionTestCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\DockerDetectionCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\EnvironmentVariablesCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\FrontendSyncCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\PortAvailabilityCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\QueueWorkerCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\ReverbProcessCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\SslCertificateCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticResult;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticStatus;
 use Illuminate\Console\Command;
 
 class ReverbDoctorCommand extends Command

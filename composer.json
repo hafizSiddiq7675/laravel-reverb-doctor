@@ -1,14 +1,14 @@
 {
-    "name": "hmzausman/laravel-reverb-doctor",
+    "name": "bitsoftsolutions/laravel-reverb-doctor",
     "description": "A CLI diagnostic tool that performs comprehensive health checks on Laravel Reverb WebSocket configurations",
     "keywords": ["laravel", "reverb", "websocket", "diagnostic", "debug", "doctor", "health-check", "broadcasting"],
     "homepage": "https://github.com/hafizSiddiq7675/laravel-reverb-doctor",
     "license": "MIT",
     "authors": [
         {
-            "name": "Hafiz Muhammad Usman",
-            "email": "hmzausman@gmail.com",
-            "homepage": "https://github.com/hmzausman"
+            "name": "Hafiz Siddiq",
+            "email": "hafiz.siddiq.umer@gmail.com",
+            "homepage": "https://github.com/hafizSiddiq7675"
         }
     ],
     "support": {
@@ -26,18 +26,18 @@
     },
     "autoload": {
         "psr-4": {
-            "HmzaUsman\\LaravelReverbDoctor\\": "src/"
+            "Bitsoftsolutions\\LaravelReverbDoctor\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HmzaUsman\\LaravelReverbDoctor\\Tests\\": "tests/"
+            "Bitsoftsolutions\\LaravelReverbDoctor\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "HmzaUsman\\LaravelReverbDoctor\\ReverbDoctorServiceProvider"
+                "Bitsoftsolutions\\LaravelReverbDoctor\\ReverbDoctorServiceProvider"
             ]
         }
     },

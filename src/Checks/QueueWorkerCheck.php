@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HmzaUsman\LaravelReverbDoctor\Checks;
+namespace Bitsoftsolutions\LaravelReverbDoctor\Checks;
 
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticResult;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticResult;
 
 class QueueWorkerCheck extends BaseCheck
 {

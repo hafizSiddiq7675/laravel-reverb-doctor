@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace HmzaUsman\LaravelReverbDoctor;
+namespace Bitsoftsolutions\LaravelReverbDoctor;
 
-use HmzaUsman\LaravelReverbDoctor\Commands\ReverbDoctorCommand;
+use Bitsoftsolutions\LaravelReverbDoctor\Commands\ReverbDoctorCommand;
 use Illuminate\Support\ServiceProvider;
 
 class ReverbDoctorServiceProvider extends ServiceProvider

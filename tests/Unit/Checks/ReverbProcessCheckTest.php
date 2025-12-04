@@ -1,7 +1,7 @@
 <?php
 
-use HmzaUsman\LaravelReverbDoctor\Checks\ReverbProcessCheck;
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticStatus;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\ReverbProcessCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticStatus;
 
 beforeEach(function () {
     $this->check = new ReverbProcessCheck();

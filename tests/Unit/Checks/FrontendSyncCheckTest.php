@@ -1,7 +1,7 @@
 <?php
 
-use HmzaUsman\LaravelReverbDoctor\Checks\FrontendSyncCheck;
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticStatus;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\FrontendSyncCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticStatus;
 
 beforeEach(function () {
     $this->check = new FrontendSyncCheck();

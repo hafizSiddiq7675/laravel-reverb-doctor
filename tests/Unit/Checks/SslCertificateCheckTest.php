@@ -1,7 +1,7 @@
 <?php
 
-use HmzaUsman\LaravelReverbDoctor\Checks\SslCertificateCheck;
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticStatus;
+use Bitsoftsolutions\LaravelReverbDoctor\Checks\SslCertificateCheck;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticStatus;
 
 beforeEach(function () {
     $this->check = new SslCertificateCheck();

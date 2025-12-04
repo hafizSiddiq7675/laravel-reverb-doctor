@@ -1,6 +1,6 @@
 <?php
 
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticStatus;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticStatus;
 use Illuminate\Support\Facades\Artisan;
 
 it('can run reverb:doctor command', function () {

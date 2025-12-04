@@ -1,8 +1,8 @@
 # Laravel Reverb Doctor
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/hmzausman/laravel-reverb-doctor.svg?style=flat-square)](https://packagist.org/packages/hmzausman/laravel-reverb-doctor)
-[![Total Downloads](https://img.shields.io/packagist/dt/hmzausman/laravel-reverb-doctor.svg?style=flat-square)](https://packagist.org/packages/hmzausman/laravel-reverb-doctor)
-[![License](https://img.shields.io/packagist/l/hmzausman/laravel-reverb-doctor.svg?style=flat-square)](https://packagist.org/packages/hmzausman/laravel-reverb-doctor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/bitsoftsolutions/laravel-reverb-doctor.svg?style=flat-square)](https://packagist.org/packages/bitsoftsolutions/laravel-reverb-doctor)
+[![Total Downloads](https://img.shields.io/packagist/dt/bitsoftsolutions/laravel-reverb-doctor.svg?style=flat-square)](https://packagist.org/packages/bitsoftsolutions/laravel-reverb-doctor)
+[![License](https://img.shields.io/packagist/l/bitsoftsolutions/laravel-reverb-doctor.svg?style=flat-square)](https://packagist.org/packages/bitsoftsolutions/laravel-reverb-doctor)
 
 A CLI diagnostic tool that performs comprehensive health checks on Laravel Reverb WebSocket configurations. Stop spending hours debugging WebSocket issues — let `reverb:doctor` diagnose your configuration in seconds.
 
@@ -25,7 +25,7 @@ A CLI diagnostic tool that performs comprehensive health checks on Laravel Rever
 ## Installation
 
 ```bash
-composer require hmzausman/laravel-reverb-doctor --dev
+composer require bitsoftsolutions/laravel-reverb-doctor --dev
 ```
 
 The package will auto-register via Laravel's package discovery.
@@ -197,5 +197,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 ## Credits
 
-- [Hafiz Muhammad Usman](https://github.com/hmzausman)
+- [Hafiz Siddiq](https://github.com/hafizSiddiq7675)
 - [All Contributors](../../contributors)

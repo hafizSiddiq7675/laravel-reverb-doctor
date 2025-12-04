@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace HmzaUsman\LaravelReverbDoctor\Results;
+namespace Bitsoftsolutions\LaravelReverbDoctor\Results;
 
 enum DiagnosticStatus: string
 {

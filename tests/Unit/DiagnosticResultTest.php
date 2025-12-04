@@ -1,7 +1,7 @@
 <?php
 
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticResult;
-use HmzaUsman\LaravelReverbDoctor\Results\DiagnosticStatus;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticResult;
+use Bitsoftsolutions\LaravelReverbDoctor\Results\DiagnosticStatus;
 
 describe('DiagnosticResult', function () {
     it('can create a pass result', function () {
